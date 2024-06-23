@@ -20344,16 +20344,27 @@ exports.default = ()=>(0, _htmlLiteralDefault.default)`
     </div>
     <div id="education">
         <p id="educationPath">
-            <ol>
-                <li>Started programming in 2021</li>
+            <ul>
+                <li>Started programming in Python in 2021</li>
                 <li>Began my Bachelors of Science in 2022</li>
                     <ul>
-                        <li>I started working in python in 2022 during my education<li>
+                        <li>I started working in python in 2022 during my education</li>
                         <li>Then I started learning Java and SQL</li>
                         <li>I created <a href = "https://github.com/amorgan754/Secure-Python-Applications-Lab-8">Flask</a> applications which included login best practices</li>
-                        <li>I had the chance to learn and work in <a href = "https://github.com/amorgan754/Secure-Programming-In-the-Cloud-Lab-4">AWS</a> creating CLI applications that manipulated in S3, DynamoDB, and learned about Lambdas<li>
+                        <li>I had the chance to learn and work in <a href = "https://github.com/amorgan754/Secure-Programming-In-the-Cloud-Lab-4">AWS</a> creating CLI applications that manipulated in S3, DynamoDB, and learned about Lambdas</li>
                         <li>I finished my <a href = "https://g1games.netlify.app/">capstone</a> by working as a project owner and team lead to create our online game of hangman</li>
                     </ul>
+                <li>I began the SavvyCoders Full Stack Web Development Bootcamp January 2024 and finished in April 2024</li>
+                <li>I got my degree in Software Development and Security with a minor in Cybersecurity in May of 2024</li>
+            </ul>
+        </p>
+    </div>
+    <div id = "personal">
+        <p id = "personalProjects"> My personal projects include:
+            <ul>
+                <li>An inprogress revamp of Captain B's Shrimp Shack's website</li>
+                <li>A <a href = "https://github.com/amorgan754/Job-Application-Tracker">job application tracker</a> that is currently CLI but will become a web application</li>
+                <li>Template for a <a href = "https://github.com/amorgan754/loginPage">login/registration page</a></li>
             </ul>
         </p>
     </div>
