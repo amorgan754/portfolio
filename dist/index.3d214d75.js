@@ -604,7 +604,7 @@ function render(state = _store.Home) {
     afterRender(state);
 }
 function afterRender(state) {
-    if (state.view === "Home") document.querySelector("enter").addEventListener("click", (event)=>{
+    if (state.view === "Home") document.getElementById("clickToEnter").addEventListener("click", (event)=>{
         event.preventDefault();
         router.navigate("/About");
     });
@@ -20367,6 +20367,14 @@ exports.default = ()=>(0, _htmlLiteralDefault.default)`
                 <li>Template for a <a href = "https://github.com/amorgan754/loginPage">login/registration page</a></li>
             </ul>
         </p>
+    </div>
+    <div id = "contact">
+    <p>Click below to find me on social media</p>
+        <a class="contactMe" href="https://github.com/amorgan754/">Github</a>
+        <a
+        class="contactMe"
+        href="https://www.linkedin.com/in/ashley-morgan-92a75111a/"
+        >LinkedIn</a>
     </div>
 `;
 

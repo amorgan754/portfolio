@@ -41,4 +41,12 @@ export default () => html`
             </ul>
         </p>
     </div>
+    <div id = "contact">
+    <p>Click below to find me on social media</p>
+        <a class="contactMe" href="https://github.com/amorgan754/">Github</a>
+        <a
+        class="contactMe"
+        href="https://www.linkedin.com/in/ashley-morgan-92a75111a/"
+        >LinkedIn</a>
+    </div>
 `;

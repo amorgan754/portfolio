@@ -23,7 +23,7 @@
 70C:\Projects\portfolio\node_modules\svgo\lib\svgo\css-select-adapter.js133602868893203200 0
 59C:\Projects\portfolio\node_modules\abortcontroller-polyfill133602868890570943 1
 75C:\Projects\portfolio\node_modules\caniuse-lite\data\features\web-serial.js133602868908502955 0
-26C:\Projects\portfolio\dist133633836234603661 1
+26C:\Projects\portfolio\dist133639076397129042 1
 53C:\Projects\portfolio\node_modules\fill-range\LICENSE133602868886852739 0
 32C:\Projects\portfolio\components133602872486672232 1
 74C:\Projects\portfolio\node_modules\htmlparser2\lib\WritableStream.d.ts.map133602868890120552 0
@@ -46,7 +46,7 @@
 55C:\Projects\portfolio\node_modules\htmlnano\index.d.cts133602868892983010 0
 71C:\Projects\portfolio\node_modules\@parcel\core\test\AssetGraph.test.js133602868892742806 0
 67C:\Projects\portfolio\node_modules\@parcel\source-map\dist\types.js133602868890896224 0
-30C:\Projects\portfolio\index.js133620928910444957 0
+30C:\Projects\portfolio\index.js133639074943175571 0
 47C:\Projects\portfolio\node_modules\css-what\lib133602868887102958 1
 84C:\Projects\portfolio\node_modules\csso\node_modules\css-tree\lib\syntax\node\Url.js133602868901220087 0
 53C:\Projects\portfolio\node_modules\tslib\package.json133602868888909517 0
@@ -786,7 +786,7 @@
 66C:\Projects\portfolio\node_modules\lmdb\dependencies\lz4\lib\lz4.c133602868893228225 0
 54C:\Projects\portfolio\node_modules\svgo\lib\types.d.ts133602868893453420 0
 72C:\Projects\portfolio\node_modules\css-tree\lib\tokenizer\TokenStream.js133602868901245118 0
-47C:\Projects\portfolio\components\views\About.js133633837841821961 0
+47C:\Projects\portfolio\components\views\About.js133639076396393429 0
 87C:\Projects\portfolio\node_modules\@swc\helpers\esm\_object_without_properties_loose.js133602868898672897 0
 75C:\Projects\portfolio\node_modules\html-literal\build\src\index.test.js.map133602869270432712 0
 78C:\Projects\portfolio\node_modules\@parcel\packager-wasm\src\wasm-sourcemap.js133602868887733502 0
@@ -4889,7 +4889,7 @@
 83C:\Projects\portfolio\node_modules\css-select\node_modules\entities\lib\escape.d.ts133602868895505185 0
 81C:\Projects\portfolio\node_modules\css-select\node_modules\entities\lib\escape.js133602868891096394 0
 85C:\Projects\portfolio\node_modules\css-select\node_modules\entities\lib\escape.js.map133602868894344183 0
-48C:\Projects\portfolio\dist\index.3d214d75.js.map133633836234593646 0
+48C:\Projects\portfolio\dist\index.3d214d75.js.map133639076397114041 0
 72C:\Projects\portfolio\node_modules\@parcel\reporter-cli\src\logLevels.js133602868890100542 0
 58C:\Projects\portfolio\node_modules\@parcel\workers\lib\web133602868894018907 1
 54C:\Projects\portfolio\node_modules\@parcel\packager-js133602868891877067 1
@@ -7100,7 +7100,7 @@
 62C:\Projects\portfolio\node_modules\@parcel\fs\src\OverlayFS.js133602868890020483 0
 58C:\Projects\portfolio\node_modules\@parcel\fs\src\types.js133602868890435833 0
 60C:\Projects\portfolio\node_modules\@parcel\fs\lib\browser.js133602868886807711 0
-44C:\Projects\portfolio\dist\index.3d214d75.js133633836234538603 0
+44C:\Projects\portfolio\dist\index.3d214d75.js133639076397043982 0
 60C:\Projects\portfolio\node_modules\@parcel\fs\lib\types.d.ts133602868891802007 0
 53C:\Projects\portfolio\node_modules\@parcel\events\lib133602868889855332 1
 62C:\Projects\portfolio\node_modules\@parcel\events\package.json133602868890440841 0
@@ -7305,10 +7305,10 @@
 48C:\Projects\portfolio\node_modules\.bin\svgo.cmd133602868909099638 0
 48C:\Projects\portfolio\node_modules\.bin\svgo.ps1133602868909099638 0
 62C:\Projects\portfolio\node_modules\.bin\update-browserslist-db133602868909099638 0
+37C:\Projects\portfolio\dist\index.html133633829723875498 0
 52C:\Projects\portfolio\dist\portfolio.3464ddca.js.map133609736692025902 0
 42C:\Projects\portfolio\components\Footer.js133602872260821562 0
 41C:\Projects\portfolio\components\index.js133609743698598438 0
 38C:\Projects\portfolio\components\views133609743809481254 1
-46C:\Projects\portfolio\components\views\Home.js133620930772163468 0
+46C:\Projects\portfolio\components\views\Home.js133639075028605543 0
 47C:\Projects\portfolio\components\views\index.js133609744261894022 0
-37C:\Projects\portfolio\dist\index.html133633829723875498 0
