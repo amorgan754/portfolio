@@ -596,7 +596,7 @@ var _axiosDefault = parcelHelpers.interopDefault(_axios);
 // router
 const router = new (0, _navigoDefault.default)("/");
 // render
-function render(state = _store.Home) {
+function render(state = _store.About) {
     document.querySelector("#root").innerHTML = `
     ${(0, _components.Main)(state)}
     `;

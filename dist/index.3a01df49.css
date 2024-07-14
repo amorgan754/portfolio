@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  color: #2e5068;
+  margin: 0;
+}
+
+#education, #personal {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+body {
+  background: #0c192c;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.bubbles {
+  z-index: -100;
+  display: flex;
+  position: relative;
+}
+
+.bubbles span {
+  animation: 15s linear infinite animate;
+  animation-duration: calc(125s / var(--i));
+  background: #4fc3dc;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 0 4px;
+  position: relative;
+  box-shadow: 0 0 0 10px #4fc3dc44, 0 0 50px #4fc3dc, 0 0 100px #4fc3dc;
+}
+
+.bubbles span:nth-child(2n) {
+  background: #ff2d7d;
+  box-shadow: 0 0 0 10px #ff2d7d44, 0 0 50px #ff2d7d, 0 0 100px #ff2d7d;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(100vh)scale(0);
+  }
+
+  100% {
+    transform: translateY(-10vh)scale(1);
+  }
+}
+/*# sourceMappingURL=index.3a01df49.css.map */
