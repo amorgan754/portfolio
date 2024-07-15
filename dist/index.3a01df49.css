@@ -1,7 +1,11 @@
 * {
   box-sizing: border-box;
-  color: #2e5068;
+  color: #5594c0;
   margin: 0;
+}
+
+a:link, a:hover, a:visited, a:active {
+  color: #368ac7;
 }
 
 #education, #personal {
@@ -22,18 +26,18 @@ body {
 }
 
 .bubbles {
-  z-index: -100;
+  z-index: -1;
   display: flex;
   position: relative;
 }
 
 .bubbles span {
   animation: 15s linear infinite animate;
-  animation-duration: calc(125s / var(--i));
+  animation-duration: calc(200s / var(--i));
   background: #4fc3dc;
   border-radius: 50%;
-  width: 30px;
-  height: 30px;
+  width: 1.5em;
+  height: 1.5em;
   margin: 0 4px;
   position: relative;
   box-shadow: 0 0 0 10px #4fc3dc44, 0 0 50px #4fc3dc, 0 0 100px #4fc3dc;

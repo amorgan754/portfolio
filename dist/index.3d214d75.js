@@ -596,7 +596,7 @@ var _axiosDefault = parcelHelpers.interopDefault(_axios);
 // router
 const router = new (0, _navigoDefault.default)("/");
 // render
-function render(state = _store.About) {
+function render(state = _store.Home) {
     document.querySelector("#root").innerHTML = `
     ${(0, _components.Main)(state)}
     `;
@@ -20331,10 +20331,10 @@ exports.default = ()=>(0, _htmlLiteralDefault.default)`
     <div id="about">
         <p id="aboutMe">
             I currently live in Washington with plans to move back to the midwest.
-            I have been programming since 2021 starting in python and
+            I have been programming since 2021, starting in python and I
             slowly learned more about different languages which lead me to start my
             degree in Software Development and Security with a minor in
-            cybersecurity. I enjoy learning more about different coding projects
+            Cybersecurity. I enjoy learning more through different coding projects
             and applications as well as validating the security of different
             applications. Coding gives a bunch of different problems with even
             more ways to solve them. The challenge that surrounds it excites me
@@ -20354,14 +20354,14 @@ exports.default = ()=>(0, _htmlLiteralDefault.default)`
                         <li>I had the chance to learn and work in <a href = "https://github.com/amorgan754/Secure-Programming-In-the-Cloud-Lab-4">AWS</a> creating CLI applications that manipulated in S3, DynamoDB, and learned about Lambdas</li>
                         <li>I finished my <a href = "https://g1games.netlify.app/">capstone</a> in May 2024 by working as a project owner and team lead to create our online game of hangman</li>
                     </ul>
-                <li>I began the SavvyCoders Full Stack Web Development Bootcamp January 2024 and finished in April 2024 where I completed a <a href = "https://householdhub.netlify.app/">capstone project</a></li>
+                <li>Began the SavvyCoders Full Stack Web Development Bootcamp January 2024 and finished in April 2024 where I completed a <a href = "https://householdhub.netlify.app/">capstone project</a></li>
                     <ul>
                         <li>I learned more indepth JavaScript, HTML, and CSS</li>
                         <li>Deployed the application using Netlify and Render</li>
                         <li>Used DOM manipulation</li>
-                        <li>created a Node.JS RESTful API to manage data stored in MongoDB</li>
+                        <li>Created a Node.JS RESTful API to manage data stored in MongoDB</li>
                     </ul>
-                <li>I got my degree in Software Development and Security with a minor in Cybersecurity in May of 2024</li>
+                <li>Finished my degree in Software Development and Security with a minor in Cybersecurity in May of 2024</li>
             </ul>
         </p>
     </div>
@@ -20369,7 +20369,7 @@ exports.default = ()=>(0, _htmlLiteralDefault.default)`
         <p id = "personalProjects"> My personal projects includes:
             <ul>
                 <li>An inprogress revamp of Captain B's Shrimp Shack's website</li>
-                <li>A <a href = "https://github.com/amorgan754/Job-Application-Tracker">job application tracker</a> that is currently CLI but will become a web application</li>
+                <li>A CLI <a href = "https://github.com/amorgan754/Job-Application-Tracker">job application tracker</a> with plans to turn it into a web application</li>
                 <li>Template for a <a href = "https://github.com/amorgan754/loginPage">login/registration page</a></li>
             </ul>
         </p>
@@ -20391,7 +20391,7 @@ var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
 exports.default = ()=>(0, _htmlLiteralDefault.default)`
     <div id="clickToEnter">
-        <h2 id = "enter">Click To Enter</h2>
+        <h2 id = "enter">Click Here To Enter</h2>
     </div>
 `;
 
