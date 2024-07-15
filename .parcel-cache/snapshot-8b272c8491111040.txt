@@ -10,7 +10,7 @@
 55C:\Projects\portfolio\node_modules\htmlnano\index.d.cts133602868892983010 0
 71C:\Projects\portfolio\node_modules\@parcel\core\test\AssetGraph.test.js133602868892742806 0
 67C:\Projects\portfolio\node_modules\@parcel\source-map\dist\types.js133602868890896224 0
-30C:\Projects\portfolio\index.js133654887786564264 0
+30C:\Projects\portfolio\index.js133655403521857725 0
 47C:\Projects\portfolio\node_modules\css-what\lib133602868887102958 1
 53C:\Projects\portfolio\node_modules\lodash\_baseXor.js133609737207950420 0
 39C:\Projects\portfolio\node_modules\.bin133609729633523763 1
@@ -19,7 +19,7 @@
 78C:\Projects\portfolio\node_modules\cosmiconfig\dist\getPropertyByPath.d.ts.map133602868892787863 0
 67C:\Projects\portfolio\node_modules\node-gyp-build-optional-packages133602868888594237 1
 43C:\Projects\portfolio\node_modules\argparse133602868889344899 1
-49C:\Projects\portfolio\dist\index.3a01df49.css.map133654882420188404 0
+49C:\Projects\portfolio\dist\index.3a01df49.css.map133655415866060232 0
 58C:\Projects\portfolio\node_modules\js-yaml\lib\type\set.js133602868892712778 0
 73C:\Projects\portfolio\node_modules\@swc\helpers\_\_ts_values\package.json133602868902471162 0
 50C:\Projects\portfolio\node_modules\combined-stream133609740745852277 1
@@ -36,7 +36,7 @@
 70C:\Projects\portfolio\node_modules\svgo\lib\svgo\css-select-adapter.js133602868893203200 0
 59C:\Projects\portfolio\node_modules\abortcontroller-polyfill133602868890570943 1
 75C:\Projects\portfolio\node_modules\caniuse-lite\data\features\web-serial.js133602868908502955 0
-26C:\Projects\portfolio\dist133654891355564720 1
+26C:\Projects\portfolio\dist133655415866065249 1
 53C:\Projects\portfolio\node_modules\fill-range\LICENSE133602868886852739 0
 32C:\Projects\portfolio\components133602872486672232 1
 74C:\Projects\portfolio\node_modules\htmlparser2\lib\WritableStream.d.ts.map133602868890120552 0
@@ -47,7 +47,7 @@
 61C:\Projects\portfolio\node_modules\parent-module\package.json133602868884954123 0
 63C:\Projects\portfolio\node_modules\nth-check\lib\index.d.ts.map133602868890595959 0
 90C:\Projects\portfolio\node_modules\css-select\node_modules\domutils\lib\esm\feeds.d.ts.map133602868891661871 0
-32C:\Projects\portfolio\index.html133654719330032134 0
+32C:\Projects\portfolio\index.html133654909461385678 0
 84C:\Projects\portfolio\node_modules\csso\node_modules\css-tree\lib\syntax\node\Url.js133602868901220087 0
 53C:\Projects\portfolio\node_modules\tslib\package.json133602868888909517 0
 48C:\Projects\portfolio\node_modules\lodash\ary.js133609737209565222 0
@@ -76,15 +76,15 @@
 56C:\Projects\portfolio\node_modules\safe-buffer\README.md133602868887573366 0
 85C:\Projects\portfolio\node_modules\caniuse-lite\data\features\css-case-insensitive.js133602868898347626 0
 52C:\Projects\portfolio\node_modules\lodash\fp\pick.js133609737213051899 0
+31C:\Projects\portfolio\README.md133654900781561737 0
 68C:\Projects\portfolio\node_modules\@parcel\config-default\index.json133602868887653439 0
-31C:\Projects\portfolio\README.md133602867482002185 0
 69C:\Projects\portfolio\node_modules\msgpackr-extract\node_modules\.bin133602868909084634 1
 66C:\Projects\portfolio\node_modules\svgo\plugins\removeEmptyText.js133602868896155735 0
 65C:\Projects\portfolio\node_modules\csso\cjs\replace\Dimension.cjs133602868891847045 0
 49C:\Projects\portfolio\node_modules\posthtml\types133602868888434113 1
 45C:\Projects\portfolio\node_modules\css-select133602868895640303 1
 76C:\Projects\portfolio\node_modules\csso\cjs\restructure\3-disjoinRuleset.cjs133602868887678451 0
-31C:\Projects\portfolio\style.css133654882419983229 0
+31C:\Projects\portfolio\style.css133655416250664821 0
 58C:\Projects\portfolio\node_modules\html-literal\src\@types133602869270450546 1
 54C:\Projects\portfolio\node_modules\picomatch\README.md133602868889850320 0
 62C:\Projects\portfolio\node_modules\type-fest\source\merge.d.ts133602868891997167 0
@@ -788,7 +788,7 @@
 66C:\Projects\portfolio\node_modules\lmdb\dependencies\lz4\lib\lz4.c133602868893228225 0
 54C:\Projects\portfolio\node_modules\svgo\lib\types.d.ts133602868893453420 0
 72C:\Projects\portfolio\node_modules\css-tree\lib\tokenizer\TokenStream.js133602868901245118 0
-47C:\Projects\portfolio\components\views\About.js133654891354944186 0
+47C:\Projects\portfolio\components\views\About.js133655403607216880 0
 87C:\Projects\portfolio\node_modules\@swc\helpers\esm\_object_without_properties_loose.js133602868898672897 0
 75C:\Projects\portfolio\node_modules\html-literal\build\src\index.test.js.map133602869270432712 0
 78C:\Projects\portfolio\node_modules\@parcel\packager-wasm\src\wasm-sourcemap.js133602868887733502 0
@@ -4889,7 +4889,7 @@
 83C:\Projects\portfolio\node_modules\css-select\node_modules\entities\lib\escape.d.ts133602868895505185 0
 81C:\Projects\portfolio\node_modules\css-select\node_modules\entities\lib\escape.js133602868891096394 0
 85C:\Projects\portfolio\node_modules\css-select\node_modules\entities\lib\escape.js.map133602868894344183 0
-48C:\Projects\portfolio\dist\index.3d214d75.js.map133654891355554712 0
+48C:\Projects\portfolio\dist\index.3d214d75.js.map133655412225859979 0
 72C:\Projects\portfolio\node_modules\@parcel\reporter-cli\src\logLevels.js133602868890100542 0
 58C:\Projects\portfolio\node_modules\@parcel\workers\lib\web133602868894018907 1
 54C:\Projects\portfolio\node_modules\@parcel\packager-js133602868891877067 1
@@ -7101,7 +7101,7 @@
 62C:\Projects\portfolio\node_modules\@parcel\fs\src\OverlayFS.js133602868890020483 0
 58C:\Projects\portfolio\node_modules\@parcel\fs\src\types.js133602868890435833 0
 60C:\Projects\portfolio\node_modules\@parcel\fs\lib\browser.js133602868886807711 0
-44C:\Projects\portfolio\dist\index.3d214d75.js133654891355509668 0
+44C:\Projects\portfolio\dist\index.3d214d75.js133655412225819956 0
 60C:\Projects\portfolio\node_modules\@parcel\fs\lib\types.d.ts133602868891802007 0
 53C:\Projects\portfolio\node_modules\@parcel\events\lib133602868889855332 1
 62C:\Projects\portfolio\node_modules\@parcel\events\package.json133602868890440841 0
@@ -7306,11 +7306,11 @@
 48C:\Projects\portfolio\node_modules\.bin\svgo.cmd133602868909099638 0
 48C:\Projects\portfolio\node_modules\.bin\svgo.ps1133602868909099638 0
 62C:\Projects\portfolio\node_modules\.bin\update-browserslist-db133602868909099638 0
-37C:\Projects\portfolio\dist\index.html133654719387671667 0
 52C:\Projects\portfolio\dist\portfolio.3464ddca.js.map133609736692025902 0
 42C:\Projects\portfolio\components\Footer.js133602872260821562 0
 41C:\Projects\portfolio\components\index.js133609743698598438 0
 38C:\Projects\portfolio\components\views133609743809481254 1
-46C:\Projects\portfolio\components\views\Home.js133654886734142188 0
+46C:\Projects\portfolio\components\views\Home.js133655412225235234 0
 47C:\Projects\portfolio\components\views\index.js133609744261894022 0
-45C:\Projects\portfolio\dist\index.3a01df49.css133654882420168379 0
+37C:\Projects\portfolio\dist\index.html133654909463612585 0
+45C:\Projects\portfolio\dist\index.3a01df49.css133655415866040211 0

@@ -19,7 +19,7 @@ function render(state = store.Home){
 
 function afterRender(state){
     if (state.view === "Home"){
-        document.getElementById("clickToEnter").addEventListener("click", event => {
+        document.querySelector("body").addEventListener("click", event => {
             event.preventDefault();
             router.navigate("/About");
         })

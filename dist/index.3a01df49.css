@@ -1,11 +1,28 @@
 * {
   box-sizing: border-box;
   color: #5594c0;
-  margin: 0;
 }
 
 a:link, a:hover, a:visited, a:active {
   color: #368ac7;
+}
+
+#homePage {
+  grid-template: (3, 1fr);
+  place-items: center;
+  display: grid;
+}
+
+#me {
+  grid-area: 1 / 1 / auto / 3;
+}
+
+#whatIDo {
+  grid-area: 2 / 1 / auto / 3;
+}
+
+#enter {
+  grid-area: 3 / 1 / auto / 3;
 }
 
 #education, #personal {

@@ -604,7 +604,7 @@ function render(state = _store.Home) {
     afterRender(state);
 }
 function afterRender(state) {
-    if (state.view === "Home") document.getElementById("clickToEnter").addEventListener("click", (event)=>{
+    if (state.view === "Home") document.querySelector("body").addEventListener("click", (event)=>{
         event.preventDefault();
         router.navigate("/About");
     });
@@ -20390,8 +20390,10 @@ parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
 exports.default = ()=>(0, _htmlLiteralDefault.default)`
-    <div id="clickToEnter">
-        <h2 id = "enter">Click Here To Enter</h2>
+    <div id="homePage">
+        <h1 id = "me">Ashley Morgan</h1>
+        <h3 id = "whatIDo">Welcome! I enjoy Full Stack Web Development, Security, and solving any coding challenge</h3>
+        <h4 id = "enter">Click To Enter</h4>
     </div>
 `;
 
