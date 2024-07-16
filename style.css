@@ -11,7 +11,6 @@ a:link, a:hover, a:visited, a:active{
 
 #homePage{
     display: grid;
-    grid-template: (3, 1fr);
     place-items: center;
 }
 

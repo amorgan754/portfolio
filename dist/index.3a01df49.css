@@ -8,7 +8,6 @@ a:link, a:hover, a:visited, a:active {
 }
 
 #homePage {
-  grid-template: (3, 1fr);
   place-items: center;
   display: grid;
 }
