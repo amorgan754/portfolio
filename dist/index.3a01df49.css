@@ -3,6 +3,10 @@
   color: #5594c0;
 }
 
+body {
+  overflow-y: hidden;
+}
+
 a:link, a:hover, a:visited, a:active {
   color: #368ac7;
 }
@@ -70,7 +74,7 @@ body {
   }
 
   100% {
-    transform: translateY(-10vh)scale(1);
+    transform: translateY(-10vh)scale(.5);
   }
 }
 /*# sourceMappingURL=index.3a01df49.css.map */
