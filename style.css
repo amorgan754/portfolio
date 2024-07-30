@@ -89,3 +89,11 @@ body{
         transform: translateY(-10vh) scale(.5);
     }
 }
+
+@media (max-width: 600px){
+    .container{
+        position: relative;
+        overflow: scroll;
+        width: 100vw;
+    }
+}
