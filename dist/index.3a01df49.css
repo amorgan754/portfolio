@@ -77,4 +77,12 @@ body {
     transform: translateY(-10vh)scale(.5);
   }
 }
+
+@media (width <= 600px) {
+  .container {
+    width: 100vw;
+    position: relative;
+    overflow: scroll;
+  }
+}
 /*# sourceMappingURL=index.3a01df49.css.map */
