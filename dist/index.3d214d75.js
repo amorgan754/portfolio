@@ -626,12 +626,15 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Home", ()=>(0, _homeDefault.default));
 parcelHelpers.export(exports, "About", ()=>(0, _aboutDefault.default));
+parcelHelpers.export(exports, "Viewnotfound", ()=>(0, _viewnotfoundDefault.default));
 var _home = require("./Home");
 var _homeDefault = parcelHelpers.interopDefault(_home);
 var _about = require("./About");
 var _aboutDefault = parcelHelpers.interopDefault(_about);
+var _viewnotfound = require("./Viewnotfound");
+var _viewnotfoundDefault = parcelHelpers.interopDefault(_viewnotfound);
 
-},{"./Home":"60R7n","./About":"3OUOl","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"60R7n":[function(require,module,exports) {
+},{"./Home":"60R7n","./About":"3OUOl","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./Viewnotfound":"cSOMF"}],"60R7n":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 exports.default = {
@@ -675,6 +678,14 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "About",
     view: "About"
+};
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cSOMF":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+exports.default = {
+    header: "Viewnotfound",
+    view: "Viewnotfound"
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fuSlc":[function(require,module,exports) {
@@ -20317,12 +20328,15 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "About", ()=>(0, _aboutDefault.default));
 parcelHelpers.export(exports, "Home", ()=>(0, _homeDefault.default));
+parcelHelpers.export(exports, "Viewnotfound", ()=>(0, _viewnotfoundDefault.default));
 var _about = require("./About");
 var _aboutDefault = parcelHelpers.interopDefault(_about);
 var _home = require("./Home");
 var _homeDefault = parcelHelpers.interopDefault(_home);
+var _viewnotfound = require("./Viewnotfound");
+var _viewnotfoundDefault = parcelHelpers.interopDefault(_viewnotfound);
 
-},{"./About":"4FEBc","./Home":"d9WBP","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4FEBc":[function(require,module,exports) {
+},{"./About":"4FEBc","./Home":"d9WBP","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./Viewnotfound":"5OO7d"}],"4FEBc":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
@@ -20395,6 +20409,19 @@ exports.default = ()=>(0, _htmlLiteralDefault.default)`
         <h3 id = "whatIDo">Welcome! I enjoy Full Stack Web Development, Security, and solving any coding challenge</h3>
         <h4 id = "enter">Click To Enter</h4>
     </div>
+`;
+
+},{"html-literal":"amMXC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5OO7d":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _htmlLiteral = require("html-literal");
+var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
+exports.default = ()=>(0, _htmlLiteralDefault.default)`
+    <section id="viewNotFound">
+        <div class="viewNotFound">
+            <h1>View not found</h1>
+        </div>
+    </section>
 `;
 
 },{"html-literal":"amMXC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["km5uZ","bB7Pu"], "bB7Pu", "parcelRequire94c2")
