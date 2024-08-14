@@ -20362,10 +20362,24 @@ exports.default = ()=>(0, _htmlLiteralDefault.default)`
                 <li>Started programming in Python in 2021</li>
                 <li>Began my Bachelors of Science in 2022</li>
                     <ul>
-                        <li>I started working in python in 2022 during my education</li>
+                        <li>I continued working in python at the start of my education and have worked with different parts of Python including the following:</li>
+                            <ul>
+                                <li>Flask</li>
+                                <li>Numpy</li>
+                                <li>Pandas</li>
+                            </ul>
                         <li>Then I started learning Java and SQL</li>
                         <li>I created a <a href = "https://github.com/amorgan754/Secure-Python-Applications-Lab-8">Flask</a> applications which included login best practices</li>
                         <li>I had the chance to learn and work in <a href = "https://github.com/amorgan754/Secure-Programming-In-the-Cloud-Lab-4">AWS</a> creating CLI applications that manipulated in S3, DynamoDB, and learned about Lambdas</li>
+                        <li>I was also working on different Cybersecurity courses to start preparing and planning for the following certifications:</li>
+                            <ul>
+                                <li>A+</li>
+                                <li>Net+</li>
+                                <li>Sec+</li>
+                                <li>Ethical Hacker</li>
+                                <li>Cloud+</li>
+                                <li>PenTest+</li>
+                            </ul>
                         <li>I finished my <a href = "https://g1games.netlify.app/">capstone</a> in May 2024 by working as a project owner and team lead to create our online game of hangman</li>
                     </ul>
                 <li>Began the SavvyCoders Full Stack Web Development Bootcamp January 2024 and finished in April 2024 where I completed a <a href = "https://householdhub.netlify.app/">capstone project</a></li>
@@ -20385,6 +20399,8 @@ exports.default = ()=>(0, _htmlLiteralDefault.default)`
                 <li>An inprogress revamp of Captain B's Shrimp Shack's website</li>
                 <li>A CLI <a href = "https://github.com/amorgan754/Job-Application-Tracker">job application tracker</a> with plans to turn it into a web application</li>
                 <li>Template for a <a href = "https://github.com/amorgan754/loginPage">login/registration page</a></li>
+                <li>Learning more about mobile application using Flutter following tutorials to create <a href = "https://github.com/amorgan754/flutterBrickBreaker">Brick Breaker</a></li>
+                <li>Learning more about Python's Turtle following tutorials to create <a href = "https://github.com/amorgan754/wordle">Wordle</a></li>
             </ul>
         </p>
     </div>
