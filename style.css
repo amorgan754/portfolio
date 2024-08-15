@@ -12,9 +12,10 @@ a:link, a:hover, a:visited, a:active{
     color: rgb(54, 138, 199);
 }
 
-#homePage{
+.homePage{
     display: grid;
     place-items: center;
+    opacity: 0;
 }
 
 #me{
