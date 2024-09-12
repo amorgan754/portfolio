@@ -627,14 +627,17 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Home", ()=>(0, _homeDefault.default));
 parcelHelpers.export(exports, "About", ()=>(0, _aboutDefault.default));
 parcelHelpers.export(exports, "Viewnotfound", ()=>(0, _viewnotfoundDefault.default));
+parcelHelpers.export(exports, "Hangman", ()=>(0, _hangmanDefault.default));
 var _home = require("./Home");
 var _homeDefault = parcelHelpers.interopDefault(_home);
 var _about = require("./About");
 var _aboutDefault = parcelHelpers.interopDefault(_about);
 var _viewnotfound = require("./Viewnotfound");
 var _viewnotfoundDefault = parcelHelpers.interopDefault(_viewnotfound);
+var _hangman = require("./Hangman");
+var _hangmanDefault = parcelHelpers.interopDefault(_hangman);
 
-},{"./Home":"60R7n","./About":"3OUOl","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./Viewnotfound":"cSOMF"}],"60R7n":[function(require,module,exports) {
+},{"./Home":"60R7n","./About":"3OUOl","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./Viewnotfound":"cSOMF","./Hangman":"g3hBG"}],"60R7n":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 exports.default = {
@@ -686,6 +689,15 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Viewnotfound",
     view: "Viewnotfound"
+};
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"g3hBG":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+exports.default = {
+    header: "Hangman",
+    view: "Hangman",
+    elementaryWords: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fuSlc":[function(require,module,exports) {
@@ -20542,14 +20554,17 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "About", ()=>(0, _aboutDefault.default));
 parcelHelpers.export(exports, "Home", ()=>(0, _homeDefault.default));
 parcelHelpers.export(exports, "Viewnotfound", ()=>(0, _viewnotfoundDefault.default));
+parcelHelpers.export(exports, "Hangman", ()=>(0, _hangmanDefault.default));
 var _about = require("./About");
 var _aboutDefault = parcelHelpers.interopDefault(_about);
 var _home = require("./Home");
 var _homeDefault = parcelHelpers.interopDefault(_home);
 var _viewnotfound = require("./Viewnotfound");
 var _viewnotfoundDefault = parcelHelpers.interopDefault(_viewnotfound);
+var _hangman = require("./Hangman");
+var _hangmanDefault = parcelHelpers.interopDefault(_hangman);
 
-},{"./About":"4FEBc","./Home":"d9WBP","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./Viewnotfound":"5OO7d"}],"4FEBc":[function(require,module,exports) {
+},{"./About":"4FEBc","./Home":"d9WBP","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./Viewnotfound":"5OO7d","./Hangman":"30zBM"}],"4FEBc":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
@@ -20651,6 +20666,25 @@ exports.default = ()=>(0, _htmlLiteralDefault.default)`
             <h1>View not found</h1>
         </div>
     </section>
+`;
+
+},{"html-literal":"amMXC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"30zBM":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _htmlLiteral = require("html-literal");
+var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
+exports.default = ()=>(0, _htmlLiteralDefault.default)` <h1>Guessing Game</h1>
+<div id="wordDisplay"></div>
+<div id="wrongGuesses"></div>
+<form id="guessForm">
+    <input type="text" id="letterInput" maxlength="1" required>
+    <input type="submit" value="Guess" id="guess">
+</form>
+<div id="endGame" style="display: none;">
+    <input type="text" id="initialsInput" maxlength="3">
+    <button id="submitScore">Submit Score</button>
+</div>
+<div id="scoreDisplay"></div>
 `;
 
 },{"html-literal":"amMXC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["km5uZ","bB7Pu"], "bB7Pu", "parcelRequire94c2")

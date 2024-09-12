@@ -6,8 +6,6 @@ gsap.registerEffect({
     }
 });
 
-// gsap.to(".homePage", {opacity: 1, ease: "power2.in", duration: 2});
-
 window.addEventListener("load", function(){
     gsap.effects.fadeIn(".homePage");
 })
