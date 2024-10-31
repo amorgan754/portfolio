@@ -6,14 +6,18 @@ let guessedWord;
 function getWord(){
 try{
     let getWord = axios.get(`https://random-word-api.herokuapp.com/word?length=5`);
-    store.Hangman.elementaryWords = getWord.data;
+    store.Hangman.words = getWord.data;
     } catch (error){
         console.log(error);
     }
+
+    return store.Hangman.word;
     
 }
 
-guessedWord = getWord().toString();
+getWord();
+
+guessedWord = store.Hangman.words;
 console.log(guessedWord);
 
 

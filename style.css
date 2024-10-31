@@ -4,7 +4,7 @@
 }
 
 body{
-    overflow-y: hidden; 
+    /* overflow-y: hidden;  */
 }
 
 
@@ -36,6 +36,16 @@ a:link, a:hover, a:visited, a:active{
 #education{
     margin-top: 1.5em;
     margin-bottom: 1.5em;
+}
+
+.aboutPage{
+
+    font-size: 2vw;
+    overflow-y: visible;
+}
+
+#about #education #personal #contact{
+    padding: .5rem;
 }
 
 #personal{

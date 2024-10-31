@@ -592,12 +592,14 @@ let guessedWord;
 function getWord() {
     try {
         let getWord = (0, _axiosDefault.default).get(`https://random-word-api.herokuapp.com/word?length=5`);
-        _store.Hangman.elementaryWords = getWord.data;
+        _store.Hangman.words = getWord.data;
     } catch (error) {
         console.log(error);
     }
+    return _store.Hangman.word;
 }
-guessedWord = getWord().toString();
+getWord();
+guessedWord = _store.Hangman.words;
 console.log(guessedWord);
 let guessedLetters = [];
 let score = 20;

@@ -697,7 +697,7 @@ parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     header: "Hangman",
     view: "Hangman",
-    elementaryWords: []
+    words: []
 };
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fuSlc":[function(require,module,exports) {
@@ -20570,6 +20570,7 @@ parcelHelpers.defineInteropFlag(exports);
 var _htmlLiteral = require("html-literal");
 var _htmlLiteralDefault = parcelHelpers.interopDefault(_htmlLiteral);
 exports.default = ()=>(0, _htmlLiteralDefault.default)`
+<div class = "aboutPage">
     <div id="about">
         <p id="aboutMe">
             I currently live in Washington with plans to move back to the midwest.
@@ -20640,6 +20641,7 @@ exports.default = ()=>(0, _htmlLiteralDefault.default)`
         href="https://www.linkedin.com/in/ashley-morgan-92a75111a/"
         >LinkedIn</a>
     </div>
+</div>
 `;
 
 },{"html-literal":"amMXC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"d9WBP":[function(require,module,exports) {

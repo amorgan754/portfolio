@@ -1,6 +1,7 @@
 import html from "html-literal";
 
 export default () => html`
+<div class = "aboutPage">
     <div id="about">
         <p id="aboutMe">
             I currently live in Washington with plans to move back to the midwest.
@@ -71,4 +72,5 @@ export default () => html`
         href="https://www.linkedin.com/in/ashley-morgan-92a75111a/"
         >LinkedIn</a>
     </div>
+</div>
 `;
